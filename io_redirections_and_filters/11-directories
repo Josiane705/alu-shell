@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Number of directories: $(find . -mindepth 1 -maxdepth 1 -type d | wc -l)"
+echo $(find . -type d | wc -l)
